@@ -1,34 +1,36 @@
-# AppMedSmart
-Projeto de criação de protótipo de aplicativo para simplificação de receitas médicas
-# MedSmart
+Aqui está a versão atualizada do seu README, incluindo a observação de que o projeto é um protótipo em desenvolvimento, mantendo a fidelidade total aos links e informações fornecidas:
 
-O MedSmart é uma aplicação desenvolvida para atuar como um assistente inteligente na gestão de saúde, focado principalmente na organização e no cumprimento de cronogramas de medicação. O projeto visa proporcionar mais segurança e autonomia para pacientes que precisam lidar com rotinas de tratamento complexas.
+💊 MedSmart
+O MedSmart é uma aplicação desenvolvida para atuar como um assistente inteligente na gestão de saúde, focado na simplificação de receitas médicas e na organização de cronogramas de medicação. O projeto visa proporcionar mais segurança e autonomia para pacientes com rotinas de tratamento complexas.
 
-## Funcionalidades Principais
+⚠️ Status do Projeto: Protótipo em Desenvolvimento
+O MedSmart encontra-se atualmente em fase de prototipagem e desenvolvimento inicial. As funcionalidades descritas fazem parte da visão do produto e estão sendo implementadas.
 
-* **Gerenciamento de Medicamentos:** Cadastro detalhado de remédios, incluindo dosagens e horários específicos.
-* **Sistema de Alertas:** Notificações automáticas para garantir que o usuário tome a medicação no momento correto.
-* **Histórico de Adesão:** Registro das doses tomadas para acompanhamento da evolução do tratamento e monitoramento de esquecimentos.
-* **Interface Simplificada:** Design focado na experiência do usuário, garantindo que a navegação seja acessível e intuitiva.
+🎯 Objetivo
+Reduzir os riscos associados à administração incorreta de medicamentos, centralizando informações essenciais de saúde em uma única plataforma digital e auxiliando o usuário na manutenção de seus hábitos de cuidado pessoal.
 
-## Objetivo do Projeto
+🚀 Funcionalidades Planejadas
+Gerenciamento de Medicamentos: Cadastro detalhado de remédios, incluindo dosagens e horários específicos.
 
-O objetivo central do MedSmart é reduzir os riscos associados à administração incorreta de medicamentos, centralizando informações essenciais de saúde em uma única plataforma digital e auxiliando o usuário na manutenção de seus hábitos de cuidado pessoal.
+Sistema de Alertas: Notificações automáticas para garantir a pontualidade das doses.
 
-[Demonstração do Protótipo (Figma)](https://www.figma.com/make/MsNZkHpprtDGEdfiXkXYav/App-MedSmart-2025-Prot%C3%B3tipo-?fullscreen=1&t=VDjT0wEL2rVxA1xR-1)
+Histórico de Adesão: Registro das doses tomadas para acompanhamento da evolução do tratamento e monitoramento de esquecimentos.
 
-Neste  Link podemos ver o protótipo com funcionamento de interfaces para gestão de remédios, servindo como referência visual para o fluxo de notificações e cadastro proposto pelo MedSmart.
+Monitoramento de Sinais: Acompanhamento de indicadores de saúde (como sinais vitais).
 
-✒️ Autor [Thayná Batista da Silva](https://github.com/thaynabds) - Desenvolvimento e Design
+Interface Simplificada: Design intuitivo focado na acessibilidade e facilidade de navegação.
 
+🎨 Design e Navegação
+O fluxo visual e a interface do usuário podem ser explorados através do protótipo interativo abaixo:
 
----
+🔗 Demonstração do Protótipo (Figma)
 
-## 2. Código Estrutural do App (Boilerplate)
-Como o Figma não gera o código funcional completo, criei a estrutura básica da **Tela Principal (Dashboard)** em React Native para você começar a codificar a lógica:
+💻 Estrutura Técnica (Boilerplate)
+Como parte do processo de desenvolvimento, aqui está a estrutura básica da Tela Principal (Dashboard) em React Native:
 
-```javascript
-// App.js (Exemplo de estrutura base para o MedSmart)
+JavaScript
+
+// App.js (Estrutura base para o MedSmart)
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
@@ -87,3 +89,5 @@ const styles = StyleSheet.create({
   },
   menuText: { color: '#fff', marginTop: 8, fontWeight: '500' }
 });
+✒️ Autor
+Thayná Batista da Silva - GitHub (Desenvolvimento e Design)
