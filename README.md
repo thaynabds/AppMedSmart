@@ -1,5 +1,3 @@
-Aqui está a versão atualizada do seu README, incluindo a observação de que o projeto é um protótipo em desenvolvimento, mantendo a fidelidade total aos links e informações fornecidas:
-
 💊 MedSmart
 O MedSmart é uma aplicação desenvolvida para atuar como um assistente inteligente na gestão de saúde, focado na simplificação de receitas médicas e na organização de cronogramas de medicação. O projeto visa proporcionar mais segurança e autonomia para pacientes com rotinas de tratamento complexas.
 
@@ -21,73 +19,84 @@ Monitoramento de Sinais: Acompanhamento de indicadores de saúde (como sinais vi
 Interface Simplificada: Design intuitivo focado na acessibilidade e facilidade de navegação.
 
 🎨 Design e Navegação
-O fluxo visual e a interface do usuário podem ser explorados através do protótipo interativo abaixo:
+O fluxo visual e a interface do usuário podem ser explorados através do protótipo interativo no Figma:
 
 🔗 Demonstração do Protótipo (Figma)
 
 💻 Estrutura Técnica (Boilerplate)
-Como parte do processo de desenvolvimento, aqui está a estrutura básica da Tela Principal (Dashboard) em React Native:
+Como parte do processo de desenvolvimento, abaixo está a estrutura básica da Tela Principal (Dashboard) traduzida para Python utilizando a biblioteca Flet:
 
-JavaScript
+import flet as ft
 
-// App.js (Estrutura base para o MedSmart)
-import React from 'react';
-import { StyleSheet, Text, View, ScrollView, TouchableOpacity } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+def main(page: ft.Page):
+    # Configurações da página
+    page.title = "MedSmart - Protótipo"
+    page.padding = 0
+    page.bgcolor = "#F5F5F5"
+    page.window_width = 390  
+    page.window_height = 844
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      {/* Header */}
-      <View style={styles.header}>
-        <Text style={styles.greeting}>Olá, Paciente</Text>
-        <Text style={styles.subtitle}>Sua saúde está 85% monitorada hoje.</Text>
-      </View>
+    # --- Header ---
+    header = ft.Container(
+        content=ft.Column([
+            ft.Text("Olá, Paciente", size=24, weight=ft.FontWeight.BOLD, color="white"),
+            ft.Text("Sua saúde está 85% monitorada hoje.", color="#E0E0E0", size=14),
+        ]),
+        padding=ft.padding.only(left=30, top=60, right=30, bottom=30),
+        bgcolor="#2D9CDB",
+        width=float("inf"),
+    )
 
-      <ScrollView style={styles.content}>
-        {/* Card de Próximo Remédio */}
-        <View style={styles.card}>
-          <Ionicons name="medical" size={32} color="#2D9CDB" />
-          <View style={styles.cardText}>
-            <Text style={styles.cardTitle}>Próximo Medicamento</Text>
-            <Text style={styles.cardInfo}>Amoxicilina - 12:00h</Text>
-          </View>
-        </View>
+    # --- Card de Próximo Remédio ---
+    card_proximo_remedio = ft.Container(
+        content=ft.Row([
+            ft.Icon(name=ft.icons.MEDICAL_SERVICES, color="#2D9CDB", size=32),
+            ft.Column([
+                ft.Text("Próximo Medicamento", weight=ft.FontWeight.BOLD, size=16),
+                ft.Text("Amoxicilina - 12:00h", size=14, color="black54"),
+            ], spacing=2)
+        ], alignment=ft.MainAxisAlignment.START),
+        padding=20,
+        bgcolor="white",
+        border_radius=15,
+        shadow=ft.BoxShadow(blur_radius=10, color="black12"),
+    )
 
-        {/* Grade de Atalhos */}
-        <View style={styles.grid}>
-          <TouchableOpacity style={styles.menuItem}>
-            <Ionicons name="calendar" size={24} color="#fff" />
-            <Text style={styles.menuText}>Agenda</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={[styles.menuItem, {backgroundColor: '#27AE60'}]}>
-            <Ionicons name="pulse" size={24} color="#fff" />
-            <Text style={styles.menuText}>Sinais</Text>
-          </TouchableOpacity>
-        </View>
-      </ScrollView>
-    </View>
-  );
-}
+    # --- Grade de Atalhos ---
+    grid_atalhos = ft.Row(
+        controls=[
+            ft.Container(
+                content=ft.Column([
+                    ft.Icon(name=ft.icons.CALENDAR_MONTH, color="white", size=24),
+                    ft.Text("Agenda", color="white", weight=ft.FontWeight.W_500),
+                ], alignment=ft.MainAxisAlignment.CENTER, horizontal_alignment=ft.CrossAxisAlignment.CENTER),
+                bgcolor="#2D9CDB", expand=True, height=100, border_radius=15,
+            ),
+            ft.Container(
+                content=ft.Column([
+                    ft.Icon(name=ft.icons.PULSE_OUTLINED, color="white", size=24),
+                    ft.Text("Sinais", color="white", weight=ft.FontWeight.W_500),
+                ], alignment=ft.MainAxisAlignment.CENTER, horizontal_alignment=ft.CrossAxisAlignment.CENTER),
+                bgcolor="#27AE60", expand=True, height=100, border_radius=15,
+            ),
+        ],
+        spacing=20,
+    )
 
-const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#F5F5F5' },
-  header: { padding: 30, paddingTop: 60, backgroundColor: '#2D9CDB' },
-  greeting: { fontSize: 24, fontWeight: 'bold', color: '#fff' },
-  subtitle: { color: '#E0E0E0', marginTop: 5 },
-  content: { padding: 20 },
-  card: { 
-    backgroundColor: '#fff', padding: 20, borderRadius: 15, 
-    flexDirection: 'row', alignItems: 'center', elevation: 3 
-  },
-  cardText: { marginLeft: 15 },
-  cardTitle: { fontWeight: 'bold', fontSize: 16 },
-  grid: { flexDirection: 'row', justifyContent: 'space-between', marginTop: 20 },
-  menuItem: { 
-    backgroundColor: '#2D9CDB', width: '48%', height: 100, 
-    borderRadius: 15, justifyContent: 'center', alignItems: 'center' 
-  },
-  menuText: { color: '#fff', marginTop: 8, fontWeight: '500' }
-});
+    # --- Conteúdo Central ---
+    content = ft.Container(
+        content=ft.Column([
+            card_proximo_remedio,
+            ft.Container(height=10),
+            grid_atalhos,
+        ]),
+        padding=20,
+    )
+
+    page.add(header, content)
+
+if __name__ == "__main__":
+    ft.app(target=main)
+
 ✒️ Autor
 Thayná Batista da Silva - GitHub (Desenvolvimento e Design)
