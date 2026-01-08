@@ -21,7 +21,7 @@ Interface Simplificada: Design intuitivo focado na acessibilidade e facilidade d
 🎨 Design e Navegação
 O fluxo visual e a interface do usuário podem ser explorados através do protótipo interativo no Figma:
 
-🔗 Demonstração do Protótipo (Figma)
+[🔗 Demonstração do Protótipo (Figma)](https://www.figma.com/make/MsNZkHpprtDGEdfiXkXYav/App-MedSmart-2025-Prot%C3%B3tipo-?fullscreen=1&t=UbuYOBRcTjLV03uC-1)
 
 💻 Estrutura Técnica (Boilerplate)
 Como parte do processo de desenvolvimento, abaixo está a estrutura básica da Tela Principal (Dashboard) traduzida para Python utilizando a biblioteca Flet:
