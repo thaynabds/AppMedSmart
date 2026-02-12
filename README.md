@@ -1,29 +1,26 @@
-💊 MedSmart
+***[💊 MedSmart](https://www.figma.com/make/MsNZkHpprtDGEdfiXkXYav/App-MedSmart-2025-Prot%C3%B3tipo-?fullscreen=1&t=UbuYOBRcTjLV03uC-1)***
 O MedSmart é uma aplicação desenvolvida para atuar como um assistente inteligente na gestão de saúde, focado na simplificação de receitas médicas e na organização de cronogramas de medicação. O projeto visa proporcionar mais segurança e autonomia para pacientes com rotinas de tratamento complexas.
 
-⚠️ Status do Projeto: Protótipo em Desenvolvimento
+⚠️ **Status do Projeto: Protótipo em Desenvolvimento**
 O MedSmart encontra-se atualmente em fase de prototipagem e desenvolvimento inicial. As funcionalidades descritas fazem parte da visão do produto e estão sendo implementadas.
 
-🎯 Objetivo
+🎯 **Objetivo**
 Reduzir os riscos associados à administração incorreta de medicamentos, centralizando informações essenciais de saúde em uma única plataforma digital e auxiliando o usuário na manutenção de seus hábitos de cuidado pessoal.
 
-🚀 Funcionalidades Planejadas
+🚀 **Funcionalidades Planejadas**
 Gerenciamento de Medicamentos: Cadastro detalhado de remédios, incluindo dosagens e horários específicos.
 
-Sistema de Alertas: Notificações automáticas para garantir a pontualidade das doses.
+- *Sistema de Alertas*: Notificações automáticas para garantir a pontualidade das doses.
+- *Histórico de Adesão*: Registro das doses tomadas para acompanhamento da evolução do tratamento e monitoramento de esquecimentos.
+- *Monitoramento de Sinais*: Acompanhamento de indicadores de saúde (como sinais vitais).
+- *Interface Simplificada*: Design intuitivo focado na acessibilidade e facilidade de navegação.
 
-Histórico de Adesão: Registro das doses tomadas para acompanhamento da evolução do tratamento e monitoramento de esquecimentos.
-
-Monitoramento de Sinais: Acompanhamento de indicadores de saúde (como sinais vitais).
-
-Interface Simplificada: Design intuitivo focado na acessibilidade e facilidade de navegação.
-
-🎨 Design e Navegação
+🎨 **Design e Navegação**
 O fluxo visual e a interface do usuário podem ser explorados através do protótipo interativo no Figma:
 
 [🔗 Demonstração do Protótipo (Figma)](https://www.figma.com/make/MsNZkHpprtDGEdfiXkXYav/App-MedSmart-2025-Prot%C3%B3tipo-?fullscreen=1&t=UbuYOBRcTjLV03uC-1)
 
-💻 Estrutura Técnica (Boilerplate)
+💻 **Estrutura Técnica** (Boilerplate)
 Como parte do processo de desenvolvimento, abaixo está a estrutura básica da Tela Principal (Dashboard) traduzida para Python utilizando a biblioteca Flet:
 
 import flet as ft
@@ -99,4 +96,4 @@ if __name__ == "__main__":
     ft.app(target=main)
 
 ✒️ Autor
-Thayná Batista da Silva - GitHub (Desenvolvimento e Design)
+[Thayná Batista da Silva - GitHub (Desenvolvimento e Design)](https://github.com/thaynabds/)
