@@ -97,5 +97,4 @@ if __name__ == "__main__":
 
 ✒️ Autor
 [Thayná Batista da Silva - GitHub (Desenvolvimento e Design)](https://github.com/thaynabds/)
-https://github.com/thaynabds/AppMedSmart
 Copyright © 2025, Thayná Batista da Silva; —  App MedSmart. Todos os direitos reservados.
