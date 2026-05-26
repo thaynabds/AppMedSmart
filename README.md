@@ -379,7 +379,7 @@ for Patients💊. All rights reserved.** 🔒
 
 ## 📞 Contact 📬
 
-Want to know more about the project or get in touch? 🤝
+Quer saber mais sobre o projeto ou entrar em contato? 🤝
 
 <div align="center">
 
