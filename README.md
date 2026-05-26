@@ -1,4 +1,21 @@
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Senac_logo.svg.png" width="140" alt="Logo Senac" />
+
 # 💊 MedSmart
+
+**Faculdade Senac Recife · Curso de Análise e Desenvolvimento de Sistemas**
+
+*Agosto a Dezembro de 2025*
+
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![Faculdade](https://img.shields.io/badge/Faculdade-Senac%20Recife-red?style=for-the-badge)
+![Curso](https://img.shields.io/badge/Curso-ADS-blue?style=for-the-badge)
+![Ano](https://img.shields.io/badge/2025-Ago%20–%20Dez-purple?style=for-the-badge)
+
+</div>
+
+---
 
 **Seu assistente inteligente para gestão de saúde e adesão medicamentosa.** 🏥✨
 
