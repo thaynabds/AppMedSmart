@@ -197,7 +197,7 @@ Quer saber mais sobre o projeto ou entrar em contato? 🤝
 
 Faculdade Senac Recife-PE | Análise e Desenvolvimento de Sistemas 🎓
 
-![Cartão TEC Thayná](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Cartão%20TEC%20Thayná%20Batista%20da%20Silva.png)
+![Cartão TEC Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
 
 </div>
 
@@ -402,7 +402,7 @@ Want to know more about the project or get in touch? 🤝
 
 Senac Recife-PE Faculty | Systems Analysis and Development 🎓
 
-![TEC Card Thayná](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Cartão%20TEC%20Thayná%20Batista%20da%20Silva.png)
+![TEC Card Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
 
 </div>
 
