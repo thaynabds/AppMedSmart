@@ -2,7 +2,7 @@
 
 <img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Senac_logo.svg.png" width="140" alt="Logo Senac" />
 
-# 💊 MedSmart
+# 💊 MedSmart <img src="https://github.com/thaynabds/AppMedSmart/blob/main/MedSmartLogo.png" width="140" alt="Logo Senac" />
 
 **Faculdade Senac Recife · Curso de Análise e Desenvolvimento de Sistemas**
 
