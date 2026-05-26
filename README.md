@@ -164,7 +164,9 @@ python main.py
 
 ## 📄 Licença
 
-**Copyright © 2025, Squad 4 Med Smart; Thayná Batista da Silva — App MedSmart. Todos os direitos reservados.** 🔒
+**Copyright © 2025, Membros do Squad 4 MedSmart de Senac; Thayná Batista da Silva — Med Smart Prescription Simplifier
+para Pacientes💊. Todos os direitos reservados.** 🔒
+**Obrigado pela visita! ⭐ Não se esqueça de curtir o projeto se gostou!** 🌟
 
 ---
 
@@ -369,7 +371,9 @@ python main.py
 
 ## 📄 License
 
-**Copyright © 2025, Squad 4 Med Smart; Thayná Batista da Silva — App MedSmart. All rights reserved.** 🔒
+**Copyright © 2025, Members of Squad 4 MedSmart of Senac; Thayná Batista da Silva — Med Smart Prescription Simplifier
+for Patients💊. All rights reserved.** 🔒
+**Thank you for visiting! ⭐ Don't forget to star the project if you liked it!** 🌟
 
 ---
 
