@@ -386,7 +386,7 @@ python main.py
 
 ---
 
-## 📄 License
+## 📄 Licença
 
 **Copyright © 2025, Members of Squad 4 MedSmart of Senac; Thayná Batista da Silva — Med Smart Prescription Simplifier
 for Patients💊. All rights reserved.** 🔒
@@ -394,7 +394,7 @@ for Patients💊. All rights reserved.** 🔒
 
 ---
 
-## 📞 Contact 📬
+## 📞 Contato 📬
 
 Quer saber mais sobre o projeto ou entrar em contato? 🤝
 
