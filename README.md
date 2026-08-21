@@ -1,228 +1,32 @@
 <div align="center">
 
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Senac_logo.svg.png" width="140" alt="Logo Senac" />
+## 🌐 Language / Idioma
 
-# 💊 MedSmart <img src="https://github.com/thaynabds/AppMedSmart/blob/main/MedSmartLogo.png" width="140" alt="Logo Senac" />
-
-**Faculdade Senac Recife · Curso de Análise e Desenvolvimento de Sistemas**
-
-*Agosto a Dezembro de 2025*
-
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
-![Faculdade](https://img.shields.io/badge/Faculdade-Senac%20Recife-red?style=for-the-badge)
-![Curso](https://img.shields.io/badge/Curso-ADS-blue?style=for-the-badge)
-![Ano](https://img.shields.io/badge/2025-Ago%20–%20Dez-purple?style=for-the-badge)
+[![Português](https://img.shields.io/badge/🇧🇷_Português-click_here-lightgrey?style=for-the-badge)](./README.md)
+[![English](https://img.shields.io/badge/🇺🇸_English-selected-2ea44f?style=for-the-badge)](./README.en.md)
 
 </div>
-
----
-
-**Seu assistente inteligente para gestão de saúde e adesão medicamentosa.** 🏥✨
-
-MedSmart é um aplicativo mobile desenvolvido para ajudar pacientes a organizarem suas medicações, receberem alertas em tempo real e acompanharem sua adesão ao tratamento de forma simples e segura. 📱💜
-
-![Capa do Projeto](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Med%20Smartt.png)
-
----
-
-## 🎯 Sobre o Projeto
-
-O **MedSmart** foi criado para reduzir erros na administração de medicamentos 💊 e aumentar a autonomia de pacientes com rotinas de tratamento complexas. Com design intuitivo 🎨 e foco em acessibilidade ♿, o aplicativo centraliza todas as informações importantes da saúde em um só lugar. 🌟
-
-**Desenvolvido por:** Aluno do curso de **Análise e Desenvolvimento de Sistemas** 💻 da **Faculdade Senac Recife-PE** 🎓, 2025
-
-**Status do Projeto:** 🚧 Protótipo de Alta Fidelidade no Figma
-
-![Solução Med Smart](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Solução.png)
-
----
-
-## ✨ Funcionalidades
-
-| Funcionalidade | Descrição |
-|----------------|-----------|
-| 💊 **Gerenciamento de Medicamentos** | Cadastro completo com nome, dosagem, horários e observações |
-| 🔔 **Alertas Inteligentes** | Notificações push para não esquecer nenhuma dose |
-| 📊 **Histórico de Adesão** | Registro detalhado das doses tomadas e esquecidas |
-| ❤️ **Monitoramento de Sinais Vitais** | Acompanhamento de pressão, glicemia, peso, etc. |
-| 📅 **Agenda Médica** | Organização de consultas e exames |
-| 🎨 **Interface Acessível** | Design clean e intuitivo ♿ |
-| 🎙️ **Assistente por Voz** | Para melhor acessibilidade |
-| 👥 **Perfil de Acompanhantes** | Para familiares gerenciarem a saúde de pacientes |
-
----
-
-## 🎨 Protótipo do App
-
-### 🏠 Tela Inicial
-![Tela Inicial](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/1770759214072.jpg)
-
-### 📋 Planos do Protótipo
-![Planos](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/1770759214314.jpg)
-
-### 📱 Telas do App
-![Telas do App](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/1770759214737.jpg)
-
-### 🖼️ Visão Geral do Protótipo
-![Protótipo](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Protótipo.png)
-
-**[🔗 Acessar Protótipo Interativo no Figma](https://www.figma.com/make/MsNZkHpprtDGEdfiXkXYav/App-MedSmart-2025-Protótipo-?fullscreen=1)** ✨
-
----
-
-## 🌍 O Impacto ESG 🌱
-
-### 🌿 **E – Environmental (Ambiental)**
-- ♻️ Reduz o desperdício de medicamentos
-- 💧 Evita uso incorreto e consultas extras, poupando recursos hospitalares
-
-### 👥 **S – Social (Social)**
-- 📱 Promove inclusão digital e alfabetização em saúde 📚
-- 👴 Ajuda idosos e pessoas com baixa escolaridade
-- ❤️ Melhora a adesão ao tratamento e qualidade de vida 🌟
-
-### ⚖️ **G – Governance (Governança)**
-- 🔒 Garante ética, transparência e proteção de dados (LGPD) 🛡️
-- 🏥 Facilita o planejamento da saúde pública ao reduzir reincidência de doenças e erros médicos
-
----
-
-## 👥 Usuários/Público Alvo
-
-| Público | Necessidade |
-|---------|-------------|
-| 🚶 **Pacientes com dificuldades** | Baixa escolaridade, analfabetismo funcional, dificuldade em seguir prescrição médica |
-| 👴 **Idosos** | Dificuldade de ler ou entender bulas 📖 |
-| 👨‍👩‍👧 **Acompanhantes** | Precisam de todos os dados clínicos em um só lugar + lembretes de medicação ⏰ |
-| 💪 **Profissionais de saúde** | Farmácias 🏥, academias 🏋️, personal trainers que desejam vender produtos/serviços |
-| 🏥 **Clínicas e Hospitais** | Gestão de múltiplos pacientes, prescrições digitais 💊, alertas de alergias ⚠️, relatórios clínicos 📊 |
-
----
-
-## 💼 Modelo de Negócio
-
-![Modelo de Negócio](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Modelo%20de%20Negócios.png)
-
-### 🆓 **Plano Med Smart Basic**
-- Versão gratuita com funções básicas ✨
-
-### 💜 **Plano Med Smart**
-- Recursos avançados: 🎙️ assistente por voz, 🔔 lembrete de medicações, 📊 histórico médico, 👥 função Acompanhantes
-
-### 🏥 **Plano MedSmart Pro**
-- Recursos para hospitais, clínicas e médicos gerenciarem pacientes e fazerem prescrições 💊
-
----
-
-## 📊 Mercado 📈
-
-### **Saúde é Prioridade!** 🏥❤️
-
-| Dado | Informação |
-|------|------------|
-| 🇧🇷 **Usuários SUS** | +150 milhões de brasileiros — muitos com dificuldades de compreensão médica |
-| 🚀 **Crescimento HealthTech** | Mercado global cresce **18% ao ano** 📊 |
-| 🤝 **Potencial de Parcerias** | Hospitais 🏥, academias 🏋️, farmácias populares 💊 e planos de saúde |
-| ⭐ **Diferencial** | Ajuda prestadores de serviços médicos a chegar ao paciente de forma efetiva com propagandas baseadas em pesquisas 🔍 |
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-| Tecnologia | Uso |
-|------------|-----|
-| 🐍 **Python** | Linguagem principal |
-| 🔧 **Flet** | Framework para apps multiplataforma |
-| 🎨 **Figma** | Design e prototipagem |
-| 🗄️ **Firebase/SQLite** | Planejamento para futuras versões |
-
----
-
-## 🚀 Como Executar o Projeto
-
-### 📋 Pré-requisitos
-- Python 3.10 ou superior instalado ✅
-
-### 📝 Passo a passo
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/thaynabds/medsmart.git
-cd medsmart
-
-# 2. Crie um ambiente virtual (recomendado)
-python -m venv venv
-venv\Scripts\activate # Windows
-# source venv/bin/activate # Linux/Mac
-
-# 3. Instale as dependências
-pip install flet
-
-# 4. Execute o aplicativo
-python main.py
-```
-
----
-
-## 👥 Equipe ESG Squad - Grupo 4 | Senac 🎓
-
-| Nome | Função |
-|------|--------|
-| Débora Rafaelle Sales de Andrade | 👥 Member |
-| Kayo Fernando Aragão Tavares | 📝 **Documentação** |
-| Mario Souza de Moura Júnior | 📝 **Documentação** |
-| Patrícia Vitória Lima de Oliveira | 🎨 **Development & Product Design** |
-| **Thayná Batista da Silva** | 🧑‍💼 **Scrum Master & Analista de Requisitos**, 🔍 **Pesquisadora**, 🎨 **Product Designer** |
-| Thiago Vitorino de Melo Barbosa | 📝 **Documentação** |
-
-![Equipe ESG Squad](https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Squad.png)
-
----
-
-## 📄 Licença
-
-**Copyright © 2025, Membros do Squad 4 MedSmart de Senac; Thayná Batista da Silva — Med Smart Prescription Simplifier
-para Pacientes💊. Todos os direitos reservados.** 🔒
-**Obrigado pela visita! ⭐ Não se esqueça de curtir o projeto se gostou!** 🌟
-
----
-
-## 📞 Contato 📬
-
-Quer saber mais sobre o projeto ou entrar em contato? 🤝
-
-<div align="center">
-
-  <a href="https://br.linkedin.com/in/thaynabds" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  
-  <a href="https://www.instagram.com/thaynabdstec/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-
-</div>
-
-📧 **E-mail:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) ✉️
-
-📱 **Telefone:** +55 (81) 97912-6121 📞
 
 ---
 
 <div align="center">
 
-### 👤 Thayná Batista da Silva
-**Scrum Master • Product Designer • Analista de Requisitos** 💼
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Senac_logo.svg.png" width="140" alt="Senac Logo" />
 
-Faculdade Senac Recife-PE | Análise e Desenvolvimento de Sistemas 🎓
+# 💊 MedSmart <img src="https://github.com/thaynabds/AppMedSmart/blob/main/MedSmartLogo.png" width="140" alt="Senac Logo" />
 
-![Cartão TEC Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
+**Senac Recife Faculty · Systems Analysis and Development Course**
+
+*August to December 2025*
+
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)
+![Faculty](https://img.shields.io/badge/Faculty-Senac%20Recife-red?style=for-the-badge)
+![Course](https://img.shields.io/badge/Course-ADS-blue?style=for-the-badge)
+![Year](https://img.shields.io/badge/2025-Aug%20–%20Dec-purple?style=for-the-badge)
 
 </div>
 
 ---
-
-# 💊 MedSmart (English Version) 🌐
 
 **Your intelligent assistant for health management and medication adherence.** 🏥✨
 
@@ -386,7 +190,7 @@ python main.py
 
 ---
 
-## 📄 Licença
+## 📄 License
 
 **Copyright © 2025, Members of Squad 4 MedSmart of Senac; Thayná Batista da Silva — Med Smart Prescription Simplifier
 for Patients💊. All rights reserved.** 🔒
@@ -394,9 +198,9 @@ for Patients💊. All rights reserved.** 🔒
 
 ---
 
-## 📞 Contato 📬
+## 📞 Contact 📬
 
-Quer saber mais sobre o projeto ou entrar em contato? 🤝
+Want to know more about the project or get in touch? 🤝
 
 <div align="center">
 
